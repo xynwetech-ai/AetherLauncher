@@ -125,6 +125,7 @@ private fun DockEditorDialog(settings: AppSettings, onDismiss: () -> Unit, onPos
     }, confirmButton = { TextButton(onClick = onDismiss) { Text("Selesai") } })
 }
 
+@Composable
 private fun Modifier.dockSurface(visual: VisualStyle, opacity: Float, shape: Shape): Modifier = when {
     visual.safeMode -> background(MaterialTheme.colorScheme.surfaceVariant, shape)
     visual.style == ThemeStyle.LIQUID_GLASS -> background(Color.Black.copy(alpha = 0.34f * opacity), shape)

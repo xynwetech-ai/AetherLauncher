@@ -3,6 +3,7 @@ package com.aethlauncher.kyn.ui.home
 import android.content.Context
 import android.widget.Toast
 import androidx.compose.foundation.gestures.detectDragGesturesAfterLongPress
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.BoxWithConstraints
